@@ -452,7 +452,7 @@ strong {
 -----------------------------------------*/
 .hero-section {
   position: relative;
-  background-image: url('/images/solar2.jpg');
+  background-image: url('../images/solar2.jpg');
   overflow: hidden;
   padding-top: 10px;
   height: calc(100vh - 51px);
@@ -465,27 +465,27 @@ strong {
 @keyframes change{
   0%
     {
-        background-image: url(/images/solar3.jpg);
+        background-image: url(../images/solar3.jpg);
     }
     20%
     {
-        background-image: url(/images/solar2.jpg);
+        background-image: url(../images/solar2.jpg);
     }
     40%
     {
-        background-image: url(/images/solar4.jpg);
+        background-image: url(../images/solar4.jpg);
     }
     60%
     {
-        background-image: url(/images/solar6.jpeg);
+        background-image: url(../images/solar6.jpeg);
     }
     80%
     {
-        background-image: url(/images/solar7.jpeg);
+        background-image: url(../images/solar7.jpeg);
     }
     100%
     {
-        background-image: url(/images/solar8.png);
+        background-image: url(../images/solar8.png);
     }
 }
 
